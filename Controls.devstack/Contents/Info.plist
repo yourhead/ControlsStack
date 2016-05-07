@@ -146,7 +146,7 @@
 		</dict>
 		<dict>
 			<key>title</key>
-			<string>Two Checkboxes</string>
+			<string>Two Checks</string>
 			<key>subtitles</key>
 			<array>
 				<string>One</string>
@@ -166,7 +166,25 @@
 		</dict>
 		<dict>
 			<key>title</key>
-			<string>Four Checkboxes</string>
+			<string>Three Checks</string>
+			<key>toolTip</key>
+			<string>Three is new</string>
+			<key>type</key>
+			<string>checkbox-3</string>
+			<key>radio</key>
+			<true/>
+			<key>id</key>
+			<string>checkbox_3_array</string>
+			<key>default</key>
+			<array>
+				<true/>
+				<false/>
+				<false/>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Four Checks</string>
 			<key>toolTip</key>
 			<string>Four is better</string>
 			<key>type</key>
@@ -207,7 +225,7 @@
 				<string>Two</string>
 			</array>
 			<key>toolTip</key>
-			<string>Two is better</string>
+			<string>One</string>
 			<key>type</key>
 			<string>color</string>
 			<key>id</key>
@@ -234,6 +252,22 @@
 		</dict>
 		<dict>
 			<key>title</key>
+			<string>Three Colors</string>
+			<key>subtitles</key>
+			<array>
+				<string>One</string>
+				<string>Two</string>
+				<string>Three</string>
+			</array>
+			<key>toolTip</key>
+			<string>Three is new</string>
+			<key>type</key>
+			<string>color-3</string>
+			<key>id</key>
+			<string>color_3_array</string>
+		</dict>
+		<dict>
+			<key>title</key>
 			<string>Four Colors</string>
 			<key>subtitles</key>
 			<array>
@@ -243,7 +277,7 @@
 				<string>Four</string>
 			</array>
 			<key>toolTip</key>
-			<string>Two is better</string>
+			<string>Four is better</string>
 			<key>type</key>
 			<string>color-4</string>
 			<key>id</key>
@@ -286,15 +320,6 @@
 		<dict>
 			<key>title</key>
 			<string>Rule</string>
-			<key>subtitles</key>
-			<array>
-				<string>One</string>
-				<string>Two</string>
-				<string>Three</string>
-				<string>Four</string>
-			</array>
-			<key>toolTip</key>
-			<string>Four is better</string>
 			<key>type</key>
 			<string>divider</string>
 			<key>id</key>
@@ -320,17 +345,6 @@
 		<dict>
 			<key>title</key>
 			<string>Rule</string>
-			<key>subtitles</key>
-			<array>
-				<string>One</string>
-				<string>Two</string>
-				<string>Three</string>
-				<string>Four</string>
-			</array>
-			<key>toolTip</key>
-			<string>Four is better</string>
-			<key>type</key>
-			<string>divider</string>
 			<key>id</key>
 			<string>rule</string>
 		</dict>
@@ -397,6 +411,22 @@
 			<string>number-2</string>
 			<key>id</key>
 			<string>number_2_array</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Three Numbers</string>
+			<key>subtitles</key>
+			<array>
+				<string>One</string>
+				<string>Two</string>
+				<string>Three</string>
+			</array>
+			<key>toolTip</key>
+			<string>Three is new</string>
+			<key>type</key>
+			<string>number-3</string>
+			<key>id</key>
+			<string>number_3_array</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -553,6 +583,22 @@
 			<string>input-2</string>
 			<key>id</key>
 			<string>text_2_array</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Three Text</string>
+			<key>subtitles</key>
+			<array>
+				<string>One</string>
+				<string>Two</string>
+				<string>Three</string>
+			</array>
+			<key>toolTip</key>
+			<string>Three is new</string>
+			<key>type</key>
+			<string>input-3</string>
+			<key>id</key>
+			<string>input_3_array</string>
 		</dict>
 		<dict>
 			<key>title</key>
